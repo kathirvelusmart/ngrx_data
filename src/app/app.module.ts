@@ -8,11 +8,8 @@ import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from 'src/environments/environment';
 import { EffectsModule } from '@ngrx/effects';
-import { EntityDataModule, EntityDataService } from '@ngrx/data';
-import { entityConfig } from './entity-metadata';
+import { EntityDataModule } from '@ngrx/data';
 import { HttpClientModule } from '@angular/common/http';
-import { PostDataService } from './post-data.service';
-import { PostsResolver } from './post.resolver';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
